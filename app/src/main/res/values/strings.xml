@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RoomDemoOne</string>
+    <string name="name">Subscriber\'s Name</string>
+    <string name="subscriber_s_email">Subscriber\'s Email</string>
 </resources>

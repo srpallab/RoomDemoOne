@@ -11,8 +11,8 @@ import androidx.room.Update
 @Dao
 interface SubscriberDAO {
     // If data with same id found Conflict Replace will
-    // replace the row
-    @Insert(onConflict = OnConflictStrategy.REPLACE)
+    // replace the row onConflict = OnConflictStrategy.REPLACE
+    @Insert
     suspend fun insertSubscriber(subscriber: Subscriber) : Long
 
     @Update
